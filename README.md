@@ -53,7 +53,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ### 3. 📱 Running the App in Development Mode
-
+```
 Frontend (React Native + Expo)
 
 
@@ -104,7 +104,7 @@ Course-specific schedule templates
 AI-generated quizzes from notes
 
 Voice-to-notes transcription
-
+```
 
 
 🤝 Contributing
