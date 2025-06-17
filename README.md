@@ -50,6 +50,8 @@ Create a `.env` file in the **root of your backend** with the following keys:
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key
+```
+
 3. 📱 Running the App in Development Mode
 
 Frontend (React Native + Expo)
