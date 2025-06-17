@@ -52,7 +52,7 @@ JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-3. 📱 Running the App in Development Mode
+### 3. 📱 Running the App in Development Mode
 
 Frontend (React Native + Expo)
 
