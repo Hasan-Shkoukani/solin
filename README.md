@@ -72,21 +72,23 @@ node server.js
 Make sure your MongoDB service is running and your .env file is correctly configured.
 
 📁 Project Structure
-bash
-Copy
-Edit
+
+
 /frontend        → React Native (Expo) app
 /backend         → Node.js + Express API
 .env             → API keys and secrets (not included in repo)
 README.md        → This file
 
 🧠 AI Parsing and Generation
+
 The document feature uses a custom parser to extract content from raw notes. It then feeds that content into the Gemini API for summarization and enhancement.
 
 🔐 Authentication
+
 Solin uses JWT tokens to manage user sessions securely. Be sure to configure JWT_SECRET in your backend environment.
 
 📌 Notes
+
 You need to have a valid MongoDB URI and Gemini API Key.
 
 Development and deployment environments should never share the same API keys.
@@ -94,6 +96,7 @@ Development and deployment environments should never share the same API keys.
 Don’t commit your .env file to version control.
 
 💡 Future Ideas
+
 Cloud sync support for documents
 
 Course-specific schedule templates
@@ -101,6 +104,8 @@ Course-specific schedule templates
 AI-generated quizzes from notes
 
 Voice-to-notes transcription
+
+
 
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
